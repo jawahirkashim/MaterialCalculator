@@ -21,4 +21,9 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.cicd.materialcalculator", appContext.packageName)
     }
+
+    @Test
+    fun addition_isCorrect(){
+        assertEquals(6,2+4)
+    }
 }
